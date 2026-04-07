@@ -8,10 +8,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Integration Platform
-  - iPaaS
   - Connectors
   - IBM
+  - Integration Platform
+  - iPaaS
 url: >-
   https://raw.githubusercontent.com/api-evangelist/ibm-app-connect/refs/heads/main/apis.yml
 created: '2026-03-16'
