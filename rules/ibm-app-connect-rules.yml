@@ -1,0 +1,36 @@
+aid: ibm-app-connect:ibm-app-connect-rules
+name: IBM App Connect Rules
+description: >-
+  Governance and operational rules for the IBM App Connect API artifacts
+  maintained in this repository.
+tags:
+  - Governance
+  - Rules
+  - IBM
+  - App Connect
+rules:
+  - name: Specification Format
+    description: >-
+      All API descriptions in this repository must use OpenAPI 3.0 or later in
+      YAML format and live under the openapi/ directory.
+  - name: Authentication
+    description: >-
+      Programmatic access to App Connect resources requires IBM Cloud IAM
+      bearer tokens or instance-issued API keys; per-flow connectors carry
+      their own credentials managed through the App Connect designer.
+  - name: Connectors
+    description: >-
+      Connector definitions are managed inside the App Connect designer; this
+      repository describes only the platform-level integration management
+      surface, not individual connector APIs.
+  - name: Versioning
+    description: >-
+      API artifacts should track the version published by IBM and be refreshed
+      when IBM publishes a new revision.
+  - name: APIs.yml Sync
+    description: >-
+      The apis.yml index in this repository must reference all OpenAPI files
+      under openapi/ and be updated when artifacts change.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

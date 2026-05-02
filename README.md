@@ -16,7 +16,7 @@ IBM App Connect is an integration platform that enables organizations to connect
 ## Timestamps
 
 - **Created:** 2026-03-16 
-- **Modified:** 2026-03-16 
+- **Modified:** 2026-04-28 
 
 ## APIs
 
@@ -40,6 +40,7 @@ The IBM App Connect API provides programmatic access to manage integration flows
 - [Website](https://www.ibm.com/products/app-connect)
 - [Documentation](https://www.ibm.com/docs/en/app-connect/)
 - [Support](https://www.ibm.com/mysupport)
+- [Rules](rules/ibm-app-connect-rules.yml)
 
 ## Maintainers
 
