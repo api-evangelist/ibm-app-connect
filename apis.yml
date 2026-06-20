@@ -6,7 +6,7 @@ description: >-
   environments. It provides low-code integration capabilities with pre-built
   connectors and a flow editor for building integration flows.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Connectors
   - IBM
