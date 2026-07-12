@@ -34,6 +34,10 @@ apis:
       - type: GettingStarted
         url: https://www.ibm.com/docs/en/app-connect/11.0.0?topic=connect-app-overview
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ibm-app-connect-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ibm-app-connect-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/IBM
   - type: Website
