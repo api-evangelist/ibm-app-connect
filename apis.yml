@@ -1,9 +1,7 @@
 aid: ibm-app-connect
 name: IBM App Connect
-description: >-
-  IBM App Connect is an integration platform that enables organizations to
-  connect applications, data, and services across cloud and on-premises
-  environments. It provides low-code integration capabilities with pre-built
+description: IBM App Connect is an integration platform that enables organizations to connect applications, data,
+  and services across cloud and on-premises environments. It provides low-code integration capabilities with pre-built
   connectors and a flow editor for building integration flows.
 type: Index
 accessModel:
@@ -20,46 +18,50 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibm-app-connect.png
 tags:
-  - Connectors
-  - IBM
-  - Integration Platform
-  - iPaaS
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/ibm-app-connect/refs/heads/main/apis.yml
+- Connectors
+- IBM
+- Integration Platform
+- iPaaS
+url: https://raw.githubusercontent.com/api-evangelist/ibm-app-connect/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-04-28'
+modified: '2026-08-21'
 specificationVersion: '0.23'
 apis:
-  - aid: ibm-app-connect:ibm-app-connect-api
-    name: IBM App Connect API
-    description: >-
-      The IBM App Connect API provides programmatic access to manage
-      integration flows, connectors, accounts, and other integration
-      platform resources.
-    humanURL: https://www.ibm.com/docs/en/app-connect/
-    tags:
-      - Integration Platform
-      - REST
-    properties:
-      - type: Documentation
-        url: https://www.ibm.com/docs/en/app-connect/
-      - type: GettingStarted
-        url: https://www.ibm.com/docs/en/app-connect/11.0.0?topic=connect-app-overview
-common:
-  - type: VulnerabilityDisclosure
-    url: security/ibm-app-connect-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/ibm-app-connect-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/IBM
-  - type: Website
-    url: https://www.ibm.com/products/app-connect
+- aid: ibm-app-connect:ibm-app-connect-api
+  name: IBM App Connect API
+  description: The IBM App Connect API provides programmatic access to manage integration flows, connectors, accounts,
+    and other integration platform resources.
+  humanURL: https://www.ibm.com/docs/en/app-connect/
+  tags:
+  - Integration Platform
+  - REST
+  properties:
   - type: Documentation
     url: https://www.ibm.com/docs/en/app-connect/
-  - type: Support
-    url: https://www.ibm.com/mysupport
-  - type: Rules
-    url: rules/ibm-app-connect-rules.yml
+  - type: GettingStarted
+    url: https://www.ibm.com/docs/en/app-connect/11.0.0?topic=connect-app-overview
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/ibm/
+  name: Ibm
+  x-relationship: product
+  x-generated-by: ibm-family:2026-08-21
+- type: VulnerabilityDisclosure
+  url: security/ibm-app-connect-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ibm-app-connect-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/IBM
+- type: Website
+  url: https://www.ibm.com/products/app-connect
+- type: Documentation
+  url: https://www.ibm.com/docs/en/app-connect/
+- type: Support
+  url: https://www.ibm.com/mysupport
+- type: Rules
+  url: rules/ibm-app-connect-rules.yml
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+x-parent: ibm
+x-relationship: product
