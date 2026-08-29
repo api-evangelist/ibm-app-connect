@@ -4,6 +4,17 @@ description: IBM App Connect is an integration platform that enables organizatio
   and services across cloud and on-premises environments. It provides low-code integration capabilities with pre-built
   connectors and a flow editor for building integration flows.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
