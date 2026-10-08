@@ -52,6 +52,12 @@ apis:
   - type: GettingStarted
     url: https://www.ibm.com/docs/en/app-connect/11.0.0?topic=connect-app-overview
 common:
+- type: Plans
+  url: plans/ibm-app-connect-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/ibm-app-connect-rate-limits.yml
+- type: FinOps
+  url: finops/ibm-app-connect-finops.yml
 - type: ParentCompany
   url: https://apis.io/providers/ibm/
   name: Ibm
